@@ -1,4 +1,19 @@
 body {
-    background-color: aqua;
-    font-family: sans-serif;
+    background-color: beige;
+    font-family: "Arial";
+    text-align: center;
+}
+button {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    border: none;
+}
+#increment-btn {
+    background: darkred;
 }
