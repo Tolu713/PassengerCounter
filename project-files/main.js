@@ -1,15 +1,15 @@
-//document.getElementById("counting").innerText = 3
 
-var count = 0
-var myAge = 11
 
-let dogRatio = 7
+// initialize count var
+var count = 0;
+// onbuttonclcick count++
+var counter = document.getElementById("counting")
+function increment() {
+    count += 1
+    counter.innerText = count
+}
 
-let bonusPoints = 50
-bonusPoints *= 2
-bonusPoints /= 4
-bonusPoints += 45
 
-var myDogAge = myAge * dogRatio
-console.log(myDogAge)
-console.log(bonusPoints)
+
+
+
