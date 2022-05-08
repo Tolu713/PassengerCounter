@@ -13,6 +13,9 @@ button {
     padding-bottom: 7px;
     border-radius: 7px;
     border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
 #increment-btn {
     background: darkred;
