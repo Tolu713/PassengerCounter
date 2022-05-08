@@ -10,15 +10,15 @@ let countingBatch = document.getElementById("countingBatch")
 
 function increment() {
     count += 1
-    counter.innerText = count
+    counter.textContent = count
     countTwo += 1
-    countingBatch.innerText = countTwo
+    countingBatch.textContent = countTwo
 }
 
 function save() {
-    prevEnt.innerText += " " + countTwo + " " + "-"
+    prevEnt.textContent += " " + countTwo + " " + "-"
     countTwo = 0 
-    countingBatch.innerText = 0
+    countingBatch.textContent = 0
 }
 
 
