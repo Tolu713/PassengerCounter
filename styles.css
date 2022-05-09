@@ -7,11 +7,11 @@ button {
     font-weight: bold;
     background-color: red;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border-radius: 7px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 9px;
     border: none;
     margin-left: 10px;
     margin-right: 10px;
@@ -22,4 +22,23 @@ button {
 }
 #save-btn {
     background-color: green;
+}
+a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.atr {
+    color: palegreen;
+}
+.Repo {
+    color: blue;
+}
+.Home {
+    color: red;
 }
