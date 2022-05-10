@@ -2,6 +2,7 @@ body {
     background-color: beige;
     font-family: "Arial";
     text-align: center;
+    font-size: 18px;
 }
 button {
     font-weight: bold;
