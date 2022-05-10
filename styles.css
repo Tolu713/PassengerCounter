@@ -13,7 +13,7 @@ button {
     padding-top: 14px;
     padding-bottom: 14px;
     border-radius: 9px;
-    border: none;
+    border: 1px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
@@ -35,6 +35,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+button:hover {
+    cursor: pointer;   
+    opacity: 0.75;
+}
 .atr {
     color: palegreen;
 }
@@ -43,4 +47,7 @@ a:hover {
 }
 .Home {
     color: red;
+}
+.Entries {
+    font-size: 20px;
 }
