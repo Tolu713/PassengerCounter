@@ -2,7 +2,7 @@ body {
     background-color: beige;
     font-family: "Arial";
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 button {
     font-weight: bold;
@@ -17,6 +17,7 @@ button {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
+    font-size: 32px;
 }
 #increment-btn {
     background: darkred;
