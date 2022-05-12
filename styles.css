@@ -7,7 +7,7 @@ body {
 button {
     font-weight: bold;
     background-color: red;
-    color: white;
+    color: black;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 14px;
@@ -17,13 +17,21 @@ button {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
+<<<<<<< HEAD
     font-size: 32px;
+=======
+    font-size: 18px;
+>>>>>>> site
 }
 #increment-btn {
-    background: darkred;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
 }
 #save-btn {
-    background-color: green;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
 }
 a {
     text-decoration: none;
@@ -36,17 +44,24 @@ a:hover {
     text-decoration: underline;
 }
 button:hover {
+<<<<<<< HEAD
     cursor: pointer;   
     opacity: 0.75;
+=======
+    opacity: 0.7;
+    cursor: pointer;
+>>>>>>> site
 }
 .atr {
-    color: palegreen;
+    color: skyblue;
 }
 .Repo {
-    color: blue;
+    color: darkgrey;
+    font-size: 22px;
 }
 .Home {
-    color: red;
+    color: lightgrey;
+    font-size: 22px;
 }
 .Entries {
     font-size: 20px;
