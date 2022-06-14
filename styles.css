@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: black;
     font-family: "Arial";
     text-align: center;
 }
@@ -20,14 +20,14 @@ button {
     
 }
 #increment-btn {
-    background-color: white;
-    border-width: 3px;
-    border-style: solid;
+    background-color: black;
+    border: 5px solid white;
+    color: white;
 }
 #save-btn {
-    background-color: white;
-    border-width: 3px;
-    border-style: solid;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
 }
 a {
     text-decoration: none;
@@ -53,4 +53,19 @@ button:hover {
 .Home {
     color: lightgrey;
     font-size: 22px;
+}
+#counting {
+    color: white;
+}
+#countingBatch {
+    color: white;
+}
+#pplenter {
+    color: white;
+}
+#pplcurrent {
+    color: white;
+}
+#prev-ent {
+    color: white;
 }
